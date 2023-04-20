@@ -1,0 +1,187 @@
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+.reviews .slick-slider {
+	z-index: 9;
+}
+.slick-initialized .slick-slide  {
+    height: auto;
+}
+.reviews .sin-testiImage img {
+	transition: all 1s;
+	cursor: pointer;
+	display: block;
+	margin: 5px auto;
+}
+
+.reviews .sin-testiImage.slick-current img {
+	-webkit-transform: scale(1, 1);
+	        transform: scale(1, 1);
+	-webkit-transition: all 1s;
+	transition: all 1s;
+}
+
+.reviews .reviews-slider {
+	position: relative;
+}
+
+.reviews .reviews-slider .icon-angle-left,
+.reviews .reviews-slider .icon-angle-right {
+	position: absolute;
+	top: 40%;
+}
+
+.reviews .reviews-slider .icon-angle-left {
+	left: 20px;
+	z-index: 999;
+}
+
+.reviews .reviews-text-slider {
+	margin: auto;
+	padding: 0;
+	position: relative;
+	text-align: center;
+	z-index: 9;
+}
+.reviews .sin-testiText p {
+	margin-top: 22px;
+	color: #2e2e2e;
+	line-height: 20px;
+	font-size: 19px
+	font-family: MyriadPro-Regular;
+}
+
+.reviews .grid-padding-x > .cell:nth-child(2) {
+	position: relative;
+}
+
+.reviews .grid-padding-x > .cell:nth-child(2) .quotes {
+	position: absolute;
+	width: 100%;
+}
+
+    </style>
+</head>
+<body>
+    <section class="reviews">
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x align-center">
+        <div class="cell medium-9 small-12">
+          <div class="reviews-slider slider-nav" >
+              <div class="sin-testiImage" style="width:274px;">
+<img src="https://fadoexpress.com/wp-content/uploads/2023/04/CNA_new_logo.svg_-e1681908869972.png" width="80" alt="">
+              </div>
+              <div class="sin-testiImage" style="width:274px;">
+<img src="https://fadoexpress.com/wp-content/uploads/2023/04/the-business-times.png" width="190" alt="">
+              </div>
+              <div class="sin-testiImage" style="width:274px;">
+<img src="https://fadoexpress.com/wp-content/uploads/2023/04/SG-SME.jpg" width="190" alt="">
+              </div>
+              <div class="sin-testiImage" style="width:274px;    margin-top: 1%;
+">
+<img src="https://fadoexpress.com/wp-content/uploads/2023/04/tech-in-asia-logo-vector.png" width="190" alt="">
+              </div>
+              <div class="sin-testiImage" style="width:274px;margin-top: 1%;">
+<img src="https://fadoexpress.com/wp-content/uploads/2023/04/featured_logo_5.png" width="190" alt="">
+              </div>
+              <div class="sin-testiImage" style="width:500px;   margin-top: 0.8%;">
+<img src="https://fadoexpress.com/wp-content/uploads/2023/04/thejakarta.png" width="190" alt="">
+              </div>
+          </div>
+        </div>
+<div class="cell medium-10 small-12">
+     <div class="reviews-text-slider slider-for">
+       <div class="sin-testiText">
+            <p>Thanks to cloud development and auto-deployment tools, Janio was able to develop rapidly without disrupting ongoing operations. The use of cloud-based web services also greatly simplified and accelerated its setup time, since it did not need to invest in or build physical infocomms infrastructure.</p>
+          </div>
+        <div class="sin-testiText">
+            <p>Working with multiple service providers along the supply chain also tends to result in "massive amounts of paperwork", with additional layers of communication required to coordinate shipments, and a high risk of losing the parcel along the way. How Janio solves this is to use technology to enable a seamless flow of goods across countries, simplifying logistics in South-east Asia</p>
+          </div>
+        <div class="sin-testiText">
+            <p>Indonesia is the largest market in ASEAN, so naturally it attracts our interest. More importantly, Indonesia not only has great business potential, but it is an archipelago spanning more than 17,000 islands, with many challenges such as high logistics costs and complex cross-border delivery. If we could overcome Indonesia,  it would give us the confidence to venture into other markets.</p>
+          </div>
+          <div class="sin-testiText">
+            <p>According to Jun Kai, Janio's CEO, one way that startups can make a difference is through utilising technology to attack inefficiencies in the logistics industry, and using data to optimise the performance of business operators in Indonesia on a national and regional level</p>
+          </div>
+          <div class="sin-testiText">
+            <p>BukaGlobal has tied up with Janio, a Singapore tech start-up that began operations last year, to handle shipping and logistics. Ali Ridha Madihid said his company's "robust technology", in terms of customs clearance and duties, helped it seal the deal in March</p>
+          </div>
+       </div>
+    </div>
+  </div>
+</div>
+</section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js" integrity="sha512-h9kKZlwV1xrIcr2LwAPZhjlkx+x62mNwuQK5PAu9d3D+JXMNlGx8akZbqpXvp0vA54rz+DrqYVrzUGDMhwKmwQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js" integrity="sha512-fDGBclS3HUysEBIKooKWFDEWWORoA20n60OwY7OSYgxGEew9s7NgDaPkj7gqQcVXnASPvZAiFW8DiytstdlGtQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+
+ $(".regular").slick({
+        dots: true,
+  //       infinite: true,
+  //       slidesToShow: 1,
+  //       slidesToScroll: 1,
+		// autoplay: true,
+  //       arrows: true,
+  //       mobileFirst: true,
+  //       easing: 'easeOutElastic',
+  //       speed: 800,
+        autoplay: true,
+        autoplaySpeed:9000,
+        speed:700,
+        mobileFirst: true,
+        slidesToShow:1,
+        slidesToScroll:1,
+        pauseOnHover:false,
+        respondTo:'min',
+        cssEase:'linear',
+      });
+
+$('.slider-for').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        draggable: false,
+        fade: true,
+        asNavFor: '.slider-nav'
+    });
+$('.slider-nav').slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        asNavFor: '.slider-for',
+        dots: false,
+        arrows: true,
+        centerMode: true,
+        focusOnSelect: true,
+        centerPadding: '10px',
+        prevArrow: '<span class="icon-angle-left"></span>',
+        nextArrow: '<span class="icon-angle-right"></span>',
+        responsive: [
+            {
+              breakpoint: 450,
+              settings: {
+                dots: false,
+                slidesToShow: 2,  
+                centerPadding: '0px',
+                }
+            },
+            {
+              breakpoint: 420,
+              settings: {
+                autoplay: true,
+                dots: false,
+                slidesToShow: 1,
+                centerMode: false,
+                }
+            }
+        ]
+    });
+
+
+
+
+
+ });	
+    </script>
+    </body>

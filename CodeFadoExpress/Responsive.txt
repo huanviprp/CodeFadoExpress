@@ -1,0 +1,121 @@
+@media only screen and (max-width: 1441px){
+	.line-text::after{
+	  content: '';
+    height: 3px;
+    width: 25%;
+    display: inline-grid;
+    position: absolute;
+    top: 20px;
+		right: 10%;
+    background: #FF6002;
+}
+.line-text::before{
+	   content: '';
+    height: 3px;
+    width: 25%;
+    display: inline-grid;
+    position: absolute;
+    top: 20px;
+	  left:10%;
+    background: #FF6002;
+}
+}
+@media only screen and (max-width: 1024px){
+	.line-text::after{
+	  content: '';
+    height: 3px;
+    width: 25%;
+    display: inline-grid;
+    position: absolute;
+    top: 20px;
+		right: 9%;
+    background: #FF6002;
+}
+.line-text::before{
+	   content: '';
+    height: 3px;
+    width: 25%;
+    display: inline-grid;
+    position: absolute;
+    top: 20px;
+	  left:9%;
+    background: #FF6002;
+}
+}
+@media only screen and (max-width: 942px){
+	.line-text::after{
+	  content: '';
+    height: 3px;
+    width: 25%;
+    display: inline-grid;
+    position: absolute;
+    top: 20px;
+		right: 30px;
+    background: #FF6002;
+}
+.line-text::before{
+	   content: '';
+    height: 3px;
+    width: 25%;
+    display: inline-grid;
+    position: absolute;
+    top: 20px;
+	  left:30px;
+    background: #FF6002;
+}
+}
+@media only screen and (max-width: 678px){
+	.line-text::after{
+	  content: '';
+    height: 3px;
+    width: 25%;
+    display: inline-grid;
+    position: absolute;
+    top: 20px;
+		right: 10px;
+    background: #FF6002;
+}
+.line-text::before{
+	   content: '';
+    height: 3px;
+    width: 25%;
+    display: inline-grid;
+    position: absolute;
+    top: 20px;
+	  left:10px;
+    background: #FF6002;
+}
+}
+@media only screen and (max-width: 616px){
+	.line-text::after{
+	  content: none;
+    
+}
+.line-text::before{
+	   content: none;
+}
+}
+/* C?t chu?i text*/
+@media only screen and (max-width: 434px){
+	.why-us p.elementor-image-box-description{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 25px;
+    -webkit-line-clamp: 4;
+    height: 95px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+	}
+}
+@media only screen and (max-width: 796px){
+		.why-us p.elementor-image-box-description{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 25px;
+    -webkit-line-clamp: 5;
+    height: 125px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+	}
+}
+}

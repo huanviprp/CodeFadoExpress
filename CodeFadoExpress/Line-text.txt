@@ -1,0 +1,35 @@
+.elementor-widget-image-box .elementor-image-box-content {
+	padding:0 15px;
+}
+.elementor-widget-image-box .elementor-image-box-content h3:hover{
+	color:#ff6602;
+}
+.elementor-2 .elementor-element.elementor-element-3cdfef6 .elementor-image-carousel-wrapper .elementor-image-carousel .swiper-slide-image{
+	margin-bottom: 30px;
+}
+.elementor-2 .elementor-element.elementor-element-3cdfef6 .elementor-image-carousel-caption{
+	padding: 0 3rem;
+}
+.line-text{
+	position: relative;
+}
+.line-text::after{
+	  content: '';
+    height: 3px;
+    width: 25%;
+    display: inline-grid;
+    position: absolute;
+    top: 20px;
+		right: 15%;
+    background: #FF6002;
+}
+.line-text::before{
+	  content: '';
+    height: 3px;
+    width: 25%;
+    display: inline-grid;
+    position: absolute;
+    top: 20px;
+	  left:15%;
+    background: #FF6002;
+}
